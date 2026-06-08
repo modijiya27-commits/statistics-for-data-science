@@ -1,48 +1,87 @@
-Applying probability, conditional probability, frequency distributions, percentiles, and statistical visualizations on a real-world dataset using Python.
+# 📊 Statistics and Hypothesis Testing with Python
 
-# Day 23 — Applying Statistics Concepts
+This repository documents my journey of learning and applying statistical concepts through hands-on analysis using Python.
 
-Part of my "Not a Data Scientist Yet" 50-Day Data Science Challenge.
+The goal is not just to learn formulas, but to understand how statistics can be used to make data-driven decisions and draw meaningful conclusions from real-world datasets.
 
-## Objective
+---
 
-After learning the foundations of statistics and data visualization, this project focuses on applying those concepts to a real-world student performance dataset.
+## 📚 Topics Covered
 
-## Concepts Applied
+### Descriptive Statistics
 
-- Probability
-- Conditional Probability
-- Frequency Distribution
-- Relative Frequency Distribution
-- Data Categorization using pd.cut()
-- Percentiles
-- Range
-- Scatter Plots
-- Crosstab Analysis
-- Boxplots
-- Statistical Interpretation
+* Frequency Distribution
+* Relative Frequency Distribution
+* Percentiles
+* Range
+* Data Categorization
+* Crosstab Analysis
 
-## Dataset
+### Data Visualization
 
-Student Habits and Academic Performance Dataset
+* Histograms
+* KDE Plots
+* Scatter Plots
+* Boxplots
+* QQ Plots
 
-## Key Learnings
+### Probability
 
-- Understanding probability through real-world examples
-- Applying conditional probability to analyze relationships
-- Interpreting distributions using frequency tables
-- Using boxplots to identify spread and outliers
-- Comparing categorical variables using crosstabs
-- Extracting insights from visualizations instead of only creating them
+* Basic Probability
+* Conditional Probability
 
-## Tools Used
+### Hypothesis Testing
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+* Null Hypothesis (H₀)
+* Alternative Hypothesis (H₁)
+* Type I & Type II Errors
+* Significance Level (α)
+* P-Values
+* Statistical Decision Making
 
-## Challenge
+### Hypothesis Testing in Python
 
-This notebook is part of my 50-day journey of learning Data Science publicly while documenting every major concept and project.
+* Shapiro-Wilk Test
+* One-Sample T-Test
+* Pearson Correlation Test
+* Interpretation of Statistical Results
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* SciPy
+* Plotly
+
+---
+
+## 🎯 Key Learnings
+
+* Understanding statistical concepts through practical examples
+* Performing exploratory statistical analysis
+* Applying probability concepts on real datasets
+* Testing assumptions using hypothesis testing
+* Interpreting p-values and statistical significance
+* Making evidence-based conclusions from data
+
+---
+
+## 🚀 Future Additions
+
+* Advanced Hypothesis Testing
+* ANOVA
+* Chi-Square Tests
+* Statistical Inference
+* Machine Learning Foundations
+* Real-World Data Science Projects
+
+---
+
+## 📈 Learning Journey
+
+This repository is part of my **"Not a Data Scientist Yet"** learning series, where I document my progress while building a strong foundation in Data Science, Statistics, Python, and Machine Learning.
