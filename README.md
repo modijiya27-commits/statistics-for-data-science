@@ -1,87 +1,155 @@
-# 📊 Statistics and Hypothesis Testing with Python
+# Statistics with Python: EDA, Visualization & Hypothesis Testing
 
-This repository documents my journey of learning and applying statistical concepts through hands-on analysis using Python.
+## Overview
 
-The goal is not just to learn formulas, but to understand how statistics can be used to make data-driven decisions and draw meaningful conclusions from real-world datasets.
+This project combines concepts learned during Days 23, 25, and 27 of my 50-Day Data Analytics Challenge.
 
----
+The notebook covers the complete workflow from exploratory data analysis and visualization to hypothesis testing using a real-world IMDb movie dataset.
 
-## 📚 Topics Covered
-
-### Descriptive Statistics
-
-* Frequency Distribution
-* Relative Frequency Distribution
-* Percentiles
-* Range
-* Data Categorization
-* Crosstab Analysis
-
-### Data Visualization
-
-* Histograms
-* KDE Plots
-* Scatter Plots
-* Boxplots
-* QQ Plots
-
-### Probability
-
-* Basic Probability
-* Conditional Probability
-
-### Hypothesis Testing
-
-* Null Hypothesis (H₀)
-* Alternative Hypothesis (H₁)
-* Type I & Type II Errors
-* Significance Level (α)
-* P-Values
-* Statistical Decision Making
-
-### Hypothesis Testing in Python
-
-* Shapiro-Wilk Test
-* One-Sample T-Test
-* Pearson Correlation Test
-* Interpretation of Statistical Results
+The goal was to understand data distributions, identify patterns, explore relationships between variables, and validate findings using statistical testing.
 
 ---
 
-## 🛠️ Technologies Used
+## Topics Covered
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* SciPy
-* Plotly
+### Day 23 – Data Visualization & Data Understanding
 
----
+- Histograms
+- Box Plots
+- Scatter Plots
+- Category Analysis
+- Outlier Detection
+- Distribution Analysis
 
-## 🎯 Key Learnings
+### Day 25 – IMDb Dataset Analysis
 
-* Understanding statistical concepts through practical examples
-* Performing exploratory statistical analysis
-* Applying probability concepts on real datasets
-* Testing assumptions using hypothesis testing
-* Interpreting p-values and statistical significance
-* Making evidence-based conclusions from data
+- Dataset Exploration
+- Rating Distribution
+- Genre-Based Analysis
+- Relationship between Votes and Ratings
+- Statistical Observations
 
----
+### Day 27 – Hypothesis Testing
 
-## 🚀 Future Additions
-
-* Advanced Hypothesis Testing
-* ANOVA
-* Chi-Square Tests
-* Statistical Inference
-* Machine Learning Foundations
-* Real-World Data Science Projects
+- Null & Alternative Hypothesis
+- Significance Level
+- P-Value Interpretation
+- Type I & Type II Errors
+- Independent Two-Sample T-Test
 
 ---
 
-## 📈 Learning Journey
+## Dataset
 
-This repository is part of my **"Not a Data Scientist Yet"** learning series, where I document my progress while building a strong foundation in Data Science, Statistics, Python, and Machine Learning.
+IMDb Movies Dataset
+
+Key Features Used:
+
+- Genre
+- Rating
+- Votes
+- Runtime
+
+---
+
+## Tools & Libraries
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- SciPy
+
+---
+
+## Exploratory Data Analysis
+
+### Rating Distribution
+
+A histogram with KDE was used to examine the distribution of movie ratings.
+
+### Q-Q Plot
+
+A Q-Q plot was used to assess normality assumptions before performing hypothesis testing.
+
+### Outlier Detection
+
+Box plots were used to identify potential outliers and understand data spread.
+
+### Relationship Analysis
+
+Scatter plots were used to explore relationships between ratings and other variables.
+
+---
+
+## Hypothesis Testing
+
+### Research Question
+
+Do Drama and Comedy movies have significantly different average ratings?
+
+### Null Hypothesis (H₀)
+
+There is no significant difference between the average ratings of Drama and Comedy movies.
+
+### Alternative Hypothesis (H₁)
+
+There is a significant difference between the average ratings of Drama and Comedy movies.
+
+---
+
+## Results
+
+### Average Ratings
+
+| Genre | Average Rating |
+|---------|--------------|
+| Drama | 5.999 |
+| Comedy | 5.737 |
+
+### Independent T-Test
+
+| Metric | Value |
+|----------|---------|
+| T-Statistic | 6.827 |
+| P-Value | 9.47 × 10⁻¹² |
+
+---
+
+## Conclusion
+
+Since the p-value is significantly lower than the significance level (0.05), the null hypothesis was rejected.
+
+The analysis suggests that Drama and Comedy movies have statistically different average ratings, with Drama movies receiving higher ratings on average within this dataset.
+
+---
+
+## Key Learnings
+
+- Data Visualization
+- Distribution Analysis
+- Outlier Detection
+- Correlation Exploration
+- Normality Assessment
+- Hypothesis Testing
+- Statistical Decision Making
+- Applying Statistics with Python
+
+---
+
+## Project Structure
+
+Statistics_Project/
+│
+├── statistics_notebook.ipynb
+├── README.md
+└── imdb_dataset.csv
+
+---
+
+## Author
+
+Jiya
+
+50-Day Data Analytics Challenge
